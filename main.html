@@ -9,10 +9,16 @@
 <body>
     <div class="container">
         <section id="section1">
-            <h1 id="header">Ludwig<br> 
-                Wittgenstein
-            </h1>
             
+            <h1 class="header"><span class="lud">Ludwig</span><br> 
+                <span class="wit">Wittgenstein</span>
+            </h1>
+
+            <div class="rhino">
+                <img src="images/william-kentridge.png">
+            </div>
+            
+            <div class="radius"></div>
              
             <!--<nav class="menu">
                 <ul>
@@ -29,16 +35,24 @@
         </section>
 
         <section id="section2">
-            <div id = "frame"> 
+            <!--<div id = "frame"> 
                 <img class = "Ludwig" src="images/elaenis.png">
         
-            </div>
+            </div>-->
         
             
             
             
         </section>
+
+        <section id="section3">
+            <div class="brief">
+                <h1 class="header_wer">Wer?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis rerum vitae illo earum nostrum, ut rem dolorem blanditiis alias quaerat debitis enim perspiciatis fugiat, quod delectus, repudiandae cumque? Animi.</p>
+            </div>
+        </section>
     </div>
+    <script src="index.js"></script>
     <script>
         /*let scroll = document.getElementById("scroll")
         
@@ -63,7 +77,14 @@
         function draw(timePassed) {
             scroll.style.top = timePassed / 9 + 'px';
         }*/
-    
+        /*var wit = document.getElementsByClassName("wit");
+        var container = document.getElementsByClassName("header");
+        var hs = new HorizontalScroll.default({
+            wit: wit,
+            container: container,
+            isAnimated: true,
+            springEffect: 0.8,
+        })*/
     </script>
 </body>
 </html>
