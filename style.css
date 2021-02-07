@@ -23,15 +23,15 @@ html {
     
   }
 
-.frame {
+/*.frame {
     position: absolute;
-    border: 2px solid #ffffff;
+    /*border: 2px solid #161616;
     align-items: center;
     width: 300px;
     height: 450px;
     left: 50px;
     
-}
+}*/
 
 /*.frame {
     width: 50%;
@@ -47,25 +47,14 @@ html {
     
 }*/
 
-.about {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-family: "OpenSans-Regular";
-    font-style: regular;
-    font-weight: bold;  
-    margin: 0!important;
-}
+
 
 .Ludwig {
     position: absolute;
-    border: 2px solid #262626;
-    top: 2%;
-    width: 350px;
-    left: 75px;
+    /*border: 2px solid #262626;*/
+    
+    width: 450px;
+    
 }
 
 #scroll {
@@ -77,18 +66,35 @@ html {
 
 
 .header {
-    position: absolute;
-    color: #f4f4f4;
-    top: 75%;
-
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
     font-family: "OpenSans-Regular";
-    font-style: light;
-    font-weight: bold;
-    text-align: center;
-    font-size: 5em;
+    font-style: regular;
+    font-weight: bold;  
+    color: #ffffff;
+    
+}
 
+.stuhl-foto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stuhl-foto img {
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    
+}
+
+.stuhl-foto div > img {
+    width: 80%;
 }
 
 .header_wer {
@@ -164,7 +170,7 @@ li {
 
 }
 
-.radius {
+/*.radius {
     position: absolute;
     width: 40em;
     height: 20em;
@@ -174,7 +180,7 @@ li {
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
     background: #e9c46a;
     z-index: 0;
-  }
+  }*/
 
   .rhino {
     position: absolute;
@@ -191,6 +197,19 @@ li {
 
   }
 
+.about {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: "OpenSans-Regular";
+    font-style: regular;
+    font-weight: bold;  
+    margin: 0!important;
+    background-color: #ffffff;
+}
 
 
 .about-pages {
@@ -213,6 +232,8 @@ li {
     width: 80%;
 
 }
+
+
 
 .about-pages div:nth-child(1) {
     background-color: #e9c46a;

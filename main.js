@@ -1,4 +1,4 @@
-function splitScroll() {
+function splitScrollAbout() {
     const controller = new ScrollMagic.Controller();
 
     new ScrollMagic.Scene({
@@ -11,4 +11,6 @@ function splitScroll() {
     .addTo(controller);
 }
 
-splitScroll();
+
+splitScrollAbout();
+
