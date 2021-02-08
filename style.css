@@ -1,14 +1,31 @@
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(fonts/woff/OpenSans-Regular.woff);
+    font-style: normal;
+    font-weight: normal; 
+  }
+
+@font-face {
+    font-family: "IBMPlexMono-Light";
+    src: url(fonts/woff/IBMPlexMono-Light.woff);
+    font-style: normal;
+    font-weight: lighter; 
+}
 
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 
 html {
-    
+    /*font-family: "OpenSans-Light";
+    src: url(fonts/woff/OpenSans-Light.woff);*/
     box-sizing: border-box;
     font-size: 18px;
+    background-color: #161616;
+    color: #ffffff;
 }
 
 .container {
@@ -17,11 +34,7 @@ html {
     
 }
 
-@font-face {
-    font-family: "OpenSans-Regular";
-    src: url(fonts/woff/OpenSans-Light.woff);
-    
-  }
+
 
 /*.frame {
     position: absolute;
@@ -71,11 +84,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4em;
+    font-size: 3em;
     font-family: "OpenSans-Regular";
-    font-style: regular;
-    font-weight: bold;  
-    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;  
+    color: #e9c46a;
     
 }
 
@@ -84,12 +97,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .stuhl-foto img {
     width: 40%;
     display: flex;
     justify-items: center;
+    
     
 }
 
@@ -99,7 +114,7 @@ html {
 
 .header_wer {
     color: #262626;
-    font-family: "OpenSans-Regular";
+    font-family: "NanumGothicCoding-Regular";
     font-style: light;
     font-weight: bold;
     text-align: center;
@@ -109,13 +124,13 @@ html {
 a {
     color:#e9c46a;
     text-decoration: none;
-    font-size: 2.5em;
+    
 }
 
 li {
     
     list-style-type: none;
-    font-family: "OpenSans-Regular";
+    font-family: "NanumGothicCoding-Regular";
     font-style: light;
     font-weight: bold;
 }
@@ -125,7 +140,7 @@ li {
     color: #e9c46a;
     top: 140px;
     right: 250px;
-    font-family: "OpenSans-Regular";
+    font-family: "NanumGothicCoding-Regular";
     font-style: light;
     font-weight: bold;
     text-decoration: none;
@@ -191,7 +206,7 @@ li {
     
   }
 
-#section2 {
+#section10 {
       height: 300vh;
       display: flex;
 
@@ -204,7 +219,7 @@ li {
     justify-content: center;
     align-items: center;
     font-size: 3em;
-    font-family: "OpenSans-Regular";
+    font-family: "NanumGothicCoding-Regular";
     font-style: regular;
     font-weight: bold;  
     margin: 0!important;
@@ -235,14 +250,36 @@ li {
 
 
 
-.about-pages div:nth-child(1) {
-    background-color: #e9c46a;
+/*.about-pages div:nth-child(1) {
+    background-color: #161616;
 }
 
 .about-pages div:nth-child(2) {
-    background-color: #f4f4f4;
+    background-color: #161616;
 }
 
 .about-pages div:nth-child(3) {
-    background-color: #262626;
+    background-color: #161616;
+}*/
+
+#section2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family: "IBMPlexMono-Light";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 p {
+    padding: 20px;   
+}
+
+#section3 {
+    width: 100%;
+    height: 100vh;
+   
 }
