@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "OpenSans-Regular";
-    src: url(fonts/woff/OpenSans-Regular.woff);
+    font-family: "Suisse-Intl-Medium";
+    src: url(fonts/woff/Suisse-Intl-Medium.woff);
     font-style: normal;
     font-weight: normal; 
   }
 
-@font-face {
+/*@font-face {
     font-family: "IBMPlexMono-Light";
     src: url(fonts/woff/IBMPlexMono-Light.woff);
     font-style: normal;
     font-weight: lighter; 
-}
+}*/
 
 * {
     margin: 0;
@@ -20,12 +20,11 @@
 
 
 html {
-    /*font-family: "OpenSans-Light";
-    src: url(fonts/woff/OpenSans-Light.woff);*/
+    font-family: "Suisse-Intl-Medium";
     box-sizing: border-box;
     font-size: 18px;
-    background-color: #161616;
-    color: #ffffff;
+    background-color: #f3f3eb;
+    color: #161616;
 }
 
 .container {
@@ -81,14 +80,22 @@ html {
 .header {
     width: 50%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-family: "OpenSans-Regular";
+    /*display: flex;
+    justify-content: left;
+    align-items: center;*/
+    position: relative;
+    left: 20px;
+    top: 100px;
+    font-size: 0.7em;
+    font-family: "Suisse-Intl-Medium";
     font-style: normal;
     font-weight: normal;  
-    color: #e9c46a;
+    color: #161616;
+    
+}
+
+.quote_one {
+    font-size: 2em;
     
 }
 
@@ -101,10 +108,10 @@ html {
 }
 
 .stuhl-foto img {
-    width: 40%;
+    width: 70%;
     display: flex;
-    justify-items: center;
-    
+    justify-items: left;
+    height: 100vh;
     
 }
 
@@ -122,9 +129,17 @@ html {
 }
 
 a {
-    color:#e9c46a;
+    text-decoration: underline;
+    color: #262626;
+}
+
+a:hover {
     text-decoration: none;
     
+}
+
+#section1 h1 {
+    text-align: center;
 }
 
 li {
@@ -148,11 +163,12 @@ li {
 }
 
 #section1 {
-    background-color: #161616;
+    
     display: flex;
     width: 100%;
     height: 100vh;
     align-items: center;
+    
 }
 
 
@@ -265,21 +281,85 @@ li {
 #section2 {
     width: 100%;
     height: 100vh;
-    background-color: #161616;
-    color: #ffffff;
-    font-size: 2.5em;
-    font-family: "IBMPlexMono-Light";
     display: flex;
+    font-size: 1.5em;
     justify-content: center;
     align-items: center;
+    text-align: justify;
+    
+    
 }
+
+/*.description {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    text-align: left;
+}*/
+
+
 
 #section2 p {
-    padding: 20px;   
+    padding: 20px;  
+    width: 550px;
 }
 
+
 #section3 {
+    font-size: 1.5em;
+    display: flex;
     width: 100%;
-    height: 100vh;
-   
+    height: 150vh;
+    
+    
+}
+
+/*#section3 h1 {
+    margin-top: 20px;
+}
+
+
+#section3 p {
+    
+    font-size: 1.5em;
+    padding: 20px;
+    
+}*/
+
+.part_one {
+    width: 50%;
+    
+}
+
+.description {
+    width: 50%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.part_one h1 {
+    padding-left: 20px;
+    font-size: 0.7em;
+    
+}
+
+
+.description p {
+    padding-right: 20px;
+}
+
+.title_one {
+    font-size: 2em;
+}
+
+.parents_photo  {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.parents_photo img {
+    width: 100%;
 }
