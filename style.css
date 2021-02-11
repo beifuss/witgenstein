@@ -229,47 +229,6 @@ p {
 
 
 
-#section10 {
-      height: 300vh;
-      display: flex;
-
-  }
-
-.about {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-family: "NanumGothicCoding-Regular";
-    font-style: regular;
-    font-weight: bold;  
-    margin: 0!important;
-    background-color: #ffffff;
-}
-
-
-.about-pages {
-    width: 50%;
-
-}
-
-
-/*сделай классами*/
-
-.about-pages div { 
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.about-pages div > p {
-    width: 80%;
-
-}
 
 
 
@@ -287,7 +246,7 @@ p {
 
 #section2 {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     font-size: 1.5em;
     justify-content: center;
@@ -316,7 +275,7 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 130vh;
+    height: 135vh;
 }
 
 .part_one {
@@ -360,9 +319,9 @@ p {
     width: 100%;
 }
 
-#hospital_photo {
+#family_photo {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -373,7 +332,7 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 410vh;
+    height: 395vh;
 }
 
 .part_two {
@@ -406,18 +365,22 @@ p {
     width: 65%;
 }
 
-#norwegian_ford {
+#norwegian_fjord {
     width: 100%;
-    height: 110vh;
+    height: 115vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 #section6 {
-    margin-top: 20vh;
+    
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 400vh;
+    height: 325vh;
 }
 
 .part_three {
@@ -449,6 +412,213 @@ p {
     width: 65%;
 }
 
+#section7 {
+    margin-top: 20vh;
+    font-size: 1.5em;
+    display: flex;
+    width: 100%;
+    height: 135vh;
+}
+
+.part_four {
+    width: 50%;
+}
 
 
+.part_four h1 {
+    padding-left: 20px;
+    font-size: 0.7em;
+    
+}
+
+.title_four {
+    font-size: 2em;
+}
+
+.wit_house  {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#hospital_photo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wit_house img {
+    width: 65%;
+}
+
+
+#section8 {
+    font-size: 1.5em;
+    display: flex;
+    width: 100%;
+    height: 220vh;
+}
+
+.part_five {
+    width: 50%;
+}
+
+
+.part_five h1 {
+    padding-left: 20px;
+    font-size: 0.7em;
+    
+}
+
+.title_five {
+    font-size: 2em;
+}
+
+.view_window  {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.view_window img {
+    width: 65%;
+}
+
+#section9 {
+    font-size: 1.5em;
+    display: flex;
+    width: 100%;
+    height: 420vh;
+}
+
+.part_six {
+    width: 50%;
+}
+
+
+.part_six h1 {
+    padding-left: 20px;
+    font-size: 0.7em;
+    
+}
+
+.title_six {
+    font-size: 2em;
+}
+
+.vid_irlandii {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.vid_irlandii img {
+    width: 85%;
+}
+
+.street {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.street img {
+    width: 85%;
+}
+
+#section10 {
+    font-size: 1.5em;
+    display: flex;
+    width: 100%;
+    height: 180vh;
+}
+
+.part_seven {
+    width: 50%;
+}
+
+
+.part_seven h1 {
+    padding-left: 20px;
+    font-size: 0.7em;
+    
+}
+
+.title_seven {
+    font-size: 2em;
+}
+
+.death {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.death img {
+    width: 85%;
+}
+
+
+#section11 {
+    height: 300vh;
+    display: flex;
+
+}
+
+.about {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: "NanumGothicCoding-Regular";
+  font-style: regular;
+  font-weight: bold;  
+  margin: 0!important;
+  background-color: #161616;
+}
+
+
+.about-pages {
+  width: 50%;
+
+}
+
+
+/*сделай классами*/
+
+.about-pages div { 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-pages div > p {
+  width: 80%;
+
+}
 
