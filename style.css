@@ -2,22 +2,13 @@
     font-family: "Suisse-Intl-Medium";
     src: url(fonts/woff/Suisse-Intl-Medium.woff);
     font-style: normal;
-    font-weight: normal; 
-  }
-
-/*@font-face {
-    font-family: "IBMPlexMono-Light";
-    src: url(fonts/woff/IBMPlexMono-Light.woff);
-    font-style: normal;
-    font-weight: lighter; 
-}*/
+    font-weight: normal;
+}
 
 * {
     margin: 0;
     padding: 0;
-    
 }
-
 
 html {
     font-family: "Suisse-Intl-Medium";
@@ -30,102 +21,41 @@ html {
 .container {
     width: 100%;
     height: 100%;
-    
 }
-
-
-
-/*.frame {
-    position: absolute;
-    /*border: 2px solid #161616;
-    align-items: center;
-    width: 300px;
-    height: 450px;
-    left: 50px;
-    
-}*/
-
-/*.frame {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-family: "OpenSans-Regular";
-    font-style: regular;
-    font-weight: bold;  
-    margin: 0!important;
-    
-}*/
-
-
-
-.Ludwig {
-    position: absolute;
-    /*border: 2px solid #262626;*/
-    
-    width: 450px;
-    
-}
-
-#scroll {
-    position: absolute;
-    left: 50%;
-    top: 99%;
-    transform: translate(-50%, -50%);
-}
-
 
 .header {
     width: 50%;
     height: 100vh;
-    /*display: flex;
-    justify-content: left;
-    align-items: center;*/
     position: relative;
     left: 20px;
     top: 100px;
     font-size: 0.7em;
     font-family: "Suisse-Intl-Medium";
     font-style: normal;
-    font-weight: normal;  
+    font-weight: normal;
     color: #161616;
-    
 }
 
 .quote_one {
     font-size: 2em;
-    
 }
 
-.stuhl-foto {
+.ludwig_photo {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.stuhl-foto img {
+.ludwig_photo img {
     width: 70%;
     display: flex;
     justify-items: left;
     height: 100vh;
-    
 }
 
-.stuhl-foto div > img {
+.ludwig_photo div>img {
     width: 80%;
-}
-
-.header_wer {
-    color: #262626;
-    font-family: "NanumGothicCoding-Regular";
-    font-style: light;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1em;
 }
 
 a {
@@ -135,114 +65,22 @@ a {
 
 a:hover {
     text-decoration: none;
-    
 }
 
 #section1 h1 {
     text-align: center;
 }
 
-li {
-    
-    list-style-type: none;
-    font-family: "NanumGothicCoding-Regular";
-    font-style: light;
-    font-weight: bold;
-}
-
 p {
-    
     margin-bottom: 1em;
 }
 
-.menu {
-    position: absolute;
-    color: #e9c46a;
-    top: 140px;
-    right: 250px;
-    font-family: "NanumGothicCoding-Regular";
-    font-style: light;
-    font-weight: bold;
-    text-decoration: none;
-    
-}
-
 #section1 {
-    
     display: flex;
     width: 100%;
     height: 100vh;
     align-items: center;
-    
 }
-
-
-/*#section2 {
-    display: flex;
-    background-color: #f4f4f4;;
-    color: #262626;
-    width: 100%;
-    height: 100vh;
-    font-size: 3em;
-    font-family: "OpenSans-Regular";
-    font-style: regular;
-    font-weight: bold;
-    
-    
-}*/
-
-/*.brief, h1, p {
-    padding: 10px;
-}*/
-
-
-.lud {
-    color: #f4f4f4;
-}
-
-.wit {
-
-    color: #262626;
-
-}
-
-/*.radius {
-    position: absolute;
-    width: 40em;
-    height: 20em;
-    top: 180px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 0 0 50% 50% / 0 0 100% 100%;
-    background: #e9c46a;
-    z-index: 0;
-  }*/
-
-  .rhino {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    top: 180px;
-    
-  }
-
-
-
-
-
-
-/*.about-pages div:nth-child(1) {
-    background-color: #161616;
-}
-
-.about-pages div:nth-child(2) {
-    background-color: #161616;
-}
-
-.about-pages div:nth-child(3) {
-    background-color: #161616;
-}*/
 
 #section2 {
     width: 100%;
@@ -252,24 +90,12 @@ p {
     justify-content: center;
     align-items: center;
     text-align: left;
-    
-    
 }
-
-/*.description {
-    position: absolute;
-    right: 0;
-    width: 50%;
-    text-align: left;
-}*/
-
-
 
 #section2 p {
-    padding: 20px;  
+    padding: 20px;
     width: 550px;
 }
-
 
 #section3 {
     font-size: 1.5em;
@@ -280,12 +106,10 @@ p {
 
 .part_one {
     width: 50%;
-    
 }
 
 .description {
     width: 50%;
-    
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -294,21 +118,17 @@ p {
 .part_one h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
-
 
 .description p {
     padding-right: 20px;
-    
-    
 }
 
 .title_one {
     font-size: 2em;
 }
 
-.parents_photo  {
+.parents_photo {
     width: 100%;
     display: flex;
     text-align: center;
@@ -327,7 +147,6 @@ p {
     justify-content: center;
 }
 
-
 #section4 {
     font-size: 1.5em;
     display: flex;
@@ -339,26 +158,22 @@ p {
     width: 50%;
 }
 
-
 .part_two h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
-
 
 .title_two {
     font-size: 2em;
 }
 
-.jung_ludwig  {
+.jung_ludwig {
     width: 100%;
     height: 400vh;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
 }
 
 .jung_ludwig img {
@@ -372,11 +187,9 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
 }
 
 #section6 {
-    
     font-size: 1.5em;
     display: flex;
     width: 100%;
@@ -387,25 +200,22 @@ p {
     width: 50%;
 }
 
-
 .part_three h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
 
 .title_three {
     font-size: 2em;
 }
 
-.pinsent  {
+.pinsent {
     width: 100%;
     height: 250vh;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
 }
 
 .pinsentg img {
@@ -424,25 +234,22 @@ p {
     width: 50%;
 }
 
-
 .part_four h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
 
 .title_four {
     font-size: 2em;
 }
 
-.wit_house  {
+.wit_house {
     width: 100%;
     height: 130vh;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
 }
 
 #hospital_photo {
@@ -457,7 +264,6 @@ p {
     width: 65%;
 }
 
-
 #section8 {
     font-size: 1.5em;
     display: flex;
@@ -469,25 +275,22 @@ p {
     width: 50%;
 }
 
-
 .part_five h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
 
 .title_five {
     font-size: 2em;
 }
 
-.view_window  {
+.view_window {
     width: 100%;
     height: 150vh;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
 }
 
 .view_window img {
@@ -505,11 +308,9 @@ p {
     width: 50%;
 }
 
-
 .part_six h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
 
 .title_six {
@@ -523,7 +324,6 @@ p {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
 }
 
 .vid_irlandii img {
@@ -554,11 +354,9 @@ p {
     width: 50%;
 }
 
-
 .part_seven h1 {
     padding-left: 20px;
     font-size: 0.7em;
-    
 }
 
 .title_seven {
@@ -572,53 +370,14 @@ p {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
 }
 
 .death img {
     width: 85%;
 }
 
-
-#section11 {
-    height: 300vh;
-    display: flex;
-
+footer {
+    text-align: center;
+    color: #161616;
+    font-size: 0.7em;
 }
-
-.about {
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3em;
-  font-family: "NanumGothicCoding-Regular";
-  font-style: regular;
-  font-weight: bold;  
-  margin: 0!important;
-  background-color: #161616;
-}
-
-
-.about-pages {
-  width: 50%;
-
-}
-
-
-/*сделай классами*/
-
-.about-pages div { 
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.about-pages div > p {
-  width: 80%;
-
-}
-
