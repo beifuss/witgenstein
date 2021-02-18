@@ -10,11 +10,15 @@
     padding: 0;
 }
 
+body {
+    min-height: 100vh;
+}
+
 html {
     font-family: "Suisse-Intl-Medium";
     box-sizing: border-box;
     font-size: 18px;
-    background-color: #f3f3eb;
+    background-color: #fbfbfb;
     color: #161616;
 }
 
@@ -71,10 +75,6 @@ a:hover {
     text-align: center;
 }
 
-p {
-    margin-bottom: 1em;
-}
-
 #section1 {
     display: flex;
     width: 100%;
@@ -84,7 +84,7 @@ p {
 
 #section2 {
     width: 100%;
-    height: 90vh;
+    height: 29vh;
     display: flex;
     font-size: 1.5em;
     justify-content: center;
@@ -93,15 +93,15 @@ p {
 }
 
 #section2 p {
-    padding: 20px;
-    width: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #section3 {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 135vh;
+    height: 123vh;
 }
 
 .part_one {
@@ -141,7 +141,7 @@ p {
 
 #family_photo {
     width: 100%;
-    height: 110vh;
+    height: 83vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,7 +151,7 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 395vh;
+    height: 379vh;
 }
 
 .part_two {
@@ -182,7 +182,7 @@ p {
 
 #norwegian_fjord {
     width: 100%;
-    height: 115vh;
+    height: 79vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,7 +193,7 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 325vh;
+    height: 300vh;
 }
 
 .part_three {
@@ -223,7 +223,6 @@ p {
 }
 
 #section7 {
-    margin-top: 20vh;
     font-size: 1.5em;
     display: flex;
     width: 100%;
@@ -254,7 +253,7 @@ p {
 
 #hospital_photo {
     width: 100%;
-    height: 100vh;
+    height: 66vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,7 +267,7 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 220vh;
+    height: 195vh;
 }
 
 .part_five {
@@ -301,7 +300,7 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 420vh;
+    height: 384vh;
 }
 
 .part_six {
@@ -347,7 +346,8 @@ p {
     font-size: 1.5em;
     display: flex;
     width: 100%;
-    height: 180vh;
+    height: 150vh;
+    margin-bottom: 0;
 }
 
 .part_seven {
@@ -365,7 +365,7 @@ p {
 
 .death {
     width: 100%;
-    height: 150vh;
+    height: 127.5vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -376,8 +376,15 @@ p {
     width: 85%;
 }
 
-footer {
+.footer {
+    padding-left: 20px;
+}
+
+.footer p {
     text-align: center;
-    color: #161616;
-    font-size: 0.7em;
+    font-size: 0.4em;
+}
+
+section {
+    margin-bottom: 50px;
 }
